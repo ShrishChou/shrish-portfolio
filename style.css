@@ -170,7 +170,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 60vh;
+  height: 70vh;
 }
 
 .section__pic-container {
@@ -220,13 +220,16 @@ section {
   height: 2rem;
   
 }
+.arrow{
+    height: 5rem;
+}
 
 /* BUTTONS */
 
 .btn-container {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .btn {
@@ -274,6 +277,7 @@ section {
 
 #about {
   position: relative;
+  color: white;
 }
 
 .about-containers {
@@ -285,6 +289,7 @@ section {
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+  color: black;
 }
 
 .about-containers,
@@ -295,7 +300,10 @@ section {
 .about-pic {
   border-radius: 2rem;
 }
-
+.text-container{
+    color: white;
+    text-align: center;
+}
 .arrow {
   position: absolute;
   right: -5rem;
@@ -314,7 +322,7 @@ section {
 
 .section-container {
   gap: 4rem;
-  height: 80%;
+  height: 70%;
 }
 
 .section__pic-container {
@@ -328,15 +336,22 @@ section {
 #experience {
   position: relative;
 }
-
+.description{
+    margin-bottom: 10px;
+}
 .experience-sub-title {
   color: black(255, 253, 253);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
 }
-
+.project-title {
+    
+    font-size: 1.25rem;
+  }
 .experience-details-container {
+    color:black;
+
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -347,17 +362,30 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 1.5rem;
   justify-content: space-around;
 }
+.article-container-r {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1.5rem;
+    justify-content: space-around;
+  }
 
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  justify-content:left;
   gap: 0.5rem;
 }
-
+.r{
+    display: flex;
+  width: 15rem;
+  justify-content: left;
+  gap: 0.5rem;
+}
 article .icon {
   cursor: default;
 }
@@ -397,6 +425,7 @@ article .icon {
   flex-direction: column;
   height: 70vh;
 }
+ 
 
 .contact-info-upper-container {
   display: flex;
