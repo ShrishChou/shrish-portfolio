@@ -426,6 +426,8 @@ article .icon {
   align-items: center;
   height: 20vh;
   align-self: center;
+  width: 90vw;
+  margin-left: 20px;
 }
 .drone{
   height: 5vh;
@@ -435,6 +437,7 @@ article .icon {
   width:25vw;
   height:auto;
     border-radius: 40px;
+    margin: 5px;
 }
 .drone-vid{
   width:38vw;

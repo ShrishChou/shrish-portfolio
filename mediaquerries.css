@@ -13,6 +13,12 @@
     footer {
       display: none;
     }
+    
+    #Photography,
+    .drone-img{
+      width: 20vw;
+      display: inline;
+    }
   }
   
   @media screen and (max-width: 1200px) {
@@ -32,6 +38,11 @@
     #experience,
     .experience-details-container {
       margin-top: 2rem;
+    }
+    #Photography,
+    .drone-img{
+      width: 42vw;
+      display: inline;
     }
     #profile,
     .section-container {
@@ -71,6 +82,10 @@
     }
     article {
       font-size: 1rem;
+    }
+    #Photography,
+    .drone-img{
+      width: 80vw;
     }
     footer nav {
         height: fit-content;
