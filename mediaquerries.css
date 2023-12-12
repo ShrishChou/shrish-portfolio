@@ -33,15 +33,25 @@
     .experience-details-container {
       margin-top: 2rem;
     }
-    #Photography,
+    #Photography{
+      height: auto;
+  align-self: center;
+  width: 80vw;
+  justify-content: space-around;
+  padding-bottom: 30px;
+    }
+    .piccont{
+      width:60vw;
+    }
     .drone-img{
-      width: 40vw;
+      width: 80vw;
     }
     .picdescr{
-      top:60px;
+      font-size: 2rem;
+      top:120px;
+      left: 200px;
     }
     .gallery{
-      height: 90vh;
       width: 100vw;
       display: flex;
       flex-direction: row;
@@ -84,10 +94,24 @@
     article {
       font-size: 1rem;
     }
-    #Photography,
+    #Photography{
+      height: auto;
+  align-self: center;
+  width: 80vw;
+  justify-content: space-around;
+  padding-bottom: 30px;
+    }
     .drone-img{
       width: 80vw;
-      
+    }
+    .piccont{
+      width:80vw;
+    }
+    .picdescr{
+      font-size: 1.5rem;
+      left:40px;
+      top:50px;
+      width:50vw;
     }
     footer nav {
         height: fit-content;

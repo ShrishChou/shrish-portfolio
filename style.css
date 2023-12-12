@@ -421,26 +421,25 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 /* DRONE */
-.Photography{
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
+#Photography{
+  height: auto;
   align-self: center;
-  width: 90vw;
-  margin-left: 20px;
+  width: 80vw;
+  justify-content: space-around;
+  padding-bottom: 30px;
 }
 .drone{
   height: 10vh;
-  width: 10vw;
+  width: 80vw;
+  justify-self: center;
+  font-size: 40;
 }
 .gallery{
-  width: 100vw;
-  height: 80vh;
-
   overflow-x: hidden;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: space-around;
 }
 .piccont{
   position: relative;
@@ -452,6 +451,8 @@ article .icon {
   position: absolute;
   left: 30px;
   top: 80px;
+  font-size: 3rem;
+  width:30vw
 }
 
 .drone-img{
