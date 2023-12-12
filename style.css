@@ -424,20 +424,42 @@ article .icon {
 .Photography{
   justify-content: center;
   align-items: center;
-  height: 20vh;
+  height: 50vh;
   align-self: center;
   width: 90vw;
   margin-left: 20px;
 }
 .drone{
-  height: 5vh;
-  width: 100vw;
+  height: 10vh;
+  width: 10vw;
 }
+.gallery{
+  width: 100vw;
+  height: 80vh;
+
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.piccont{
+  position: relative;
+  width: 40vw;
+}
+.picdescr{
+  opacity: 0;
+  z-index: 3;
+  position: absolute;
+  left: 30px;
+  top: 80px;
+}
+
 .drone-img{
-  width:25vw;
+  width:38vw;
   height:auto;
     border-radius: 40px;
     margin: 5px;
+    z-index: -2;
 }
 .drone-vid{
   width:38vw;
@@ -445,8 +467,15 @@ article .icon {
   border-radius: 50px;
 
 }
-.drone-img:hover{
 
+.piccont:hover .drone-img{
+  opacity: 0.3;
+  transition: 0.3s;
+
+}
+.piccont:hover .picdescr{
+  opacity: 1;
+  transition: 0.3s;
 }
 
 /* CONTACT */

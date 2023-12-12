@@ -10,15 +10,9 @@
     #projects {
       height: fit-content;
     }
-    footer {
-      display: none;
-    }
     
-    #Photography,
-    .drone-img{
-      width: 20vw;
-      display: inline;
-    }
+   
+    
   }
   
   @media screen and (max-width: 1200px) {
@@ -41,8 +35,17 @@
     }
     #Photography,
     .drone-img{
-      width: 42vw;
-      display: inline;
+      width: 40vw;
+    }
+    .picdescr{
+      top:60px;
+    }
+    .gallery{
+      height: 90vh;
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
     }
     #profile,
     .section-container {
@@ -66,9 +69,7 @@
     .about-containers {
       margin-top: 0;
     }
-    footer {
-      display: none;
-    }
+    
   }
   
   @media screen and (max-width: 600px) {
@@ -86,6 +87,7 @@
     #Photography,
     .drone-img{
       width: 80vw;
+      
     }
     footer nav {
         height: fit-content;
