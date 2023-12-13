@@ -221,7 +221,18 @@ section {
   
 }
 .arrow{
-    height: 5rem;
+    height: 6rem;
+}
+.insta{
+  margin-top: 18px;
+  height: 3rem;
+  width:auto;
+}
+.utube{
+  height: 4rem;
+  width:auto;
+  margin-top: 10px;
+  margin-left: 2rem;
 }
 
 /* BUTTONS */
@@ -282,6 +293,7 @@ section {
 #about {
   position: relative;
   color: white;
+  height:80vh;
 }
 
 .about-containers {
@@ -310,7 +322,7 @@ section {
 }
 .arrow {
   position: absolute;
-  right: -5rem;
+  right: -6rem;
   bottom: 2.5rem;
 }
 
@@ -339,6 +351,8 @@ section {
 
 #experience {
   position: relative;
+  height:90vh;
+
 }
 .description{
     margin-bottom: 10px;
@@ -398,6 +412,7 @@ article .icon {
 
 #projects {
   position: relative;
+  height: 110vh;
 }
 
 .color-container {
@@ -420,7 +435,9 @@ article .icon {
   color: black;
   border-color: rgb(163, 163, 163);
 }
+
 /* DRONE */
+
 #Photography{
   height: auto;
   align-self: center;
@@ -428,11 +445,16 @@ article .icon {
   justify-content: space-around;
   padding-bottom: 30px;
 }
+.head{
+  display: flex;
+  flex-direction: row;
+  padding-top: 4rem;
+}
 .drone{
-  height: 10vh;
-  width: 80vw;
+  height: 20vh;
+  width: 60vw;
   justify-self: center;
-  font-size: 40;
+  font-size: 3rem;
 }
 .gallery{
   overflow-x: hidden;
