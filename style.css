@@ -366,6 +366,7 @@ section {
   color: black;
 }
 .each{
+  font-size: 0.9vw;
   padding-left: 1vw;
   padding-bottom: 0vh;
 }
