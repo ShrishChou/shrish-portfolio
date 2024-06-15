@@ -5,6 +5,7 @@
 * {
   margin: 0;
   padding: 0;
+  list-style-type: none; /* Remove bullets */
 }
 
 body {
@@ -368,7 +369,9 @@ section {
   color: black;
 }
 .each{
+
   padding-left: 1vw;
+  padding-right: 1vw;
   padding-bottom: 0vh;
 }
 .experience-sub-title {
