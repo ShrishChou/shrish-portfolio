@@ -358,15 +358,16 @@ section {
     margin-bottom: 10px;
 }
 .skill{
+  justify-content: center;
   padding-top: 1vh;
   display: flex;
+  flex-direction: row;
   padding-bottom: 1vh;
 }
 .space{
   color: black;
 }
 .each{
-  font-size: 0.9vw;
   padding-left: 1vw;
   padding-bottom: 0vh;
 }
