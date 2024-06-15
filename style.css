@@ -357,6 +357,18 @@ section {
 .description{
     margin-bottom: 10px;
 }
+.skill{
+  padding-top: 1vh;
+  display: flex;
+  padding-bottom: 1vh;
+}
+.space{
+  color: black;
+}
+.each{
+  padding-left: 1vw;
+  padding-bottom: 0vh;
+}
 .experience-sub-title {
   color: black(255, 253, 253);
   font-weight: 600;
